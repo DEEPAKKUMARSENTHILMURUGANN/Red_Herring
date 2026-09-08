@@ -1,0 +1,1609 @@
+Attached Element Context from Integrated Browser
+
+Element: body.h-screen.w-screen.overflow-hidden.bg-[#0c1317].dark:bg-[#0c1317].text-[#111b21].dark:text-[#e9edef].flex.flex-col.antialiased.select-none
+
+URL: file:///C:/Users/PANDA/OneDrive/Desktop/whatsapp%20web/index.html
+
+HTML Path: body.h-screen.w-screen.overflow-hidden.bg-[#0c1317].dark:bg-[#0c1317].text-[#111b21].dark:text-[#e9edef].flex.flex-col.antialiased.select-none
+
+Outer HTML:
+```html
+<body class="h-screen w-screen overflow-hidden bg-[#0c1317] dark:bg-[#0c1317] text-[#111b21] dark:text-[#e9edef] flex flex-col antialiased select-none">
+
+  <!-- Desktop workspace and launcher -->
+  <div class="desktop-wallpaper absolute inset-0 z-0 flex flex-col justify-between text-white">
+    <div class="p-5 sm:p-8">
+      <button class="desktop-icon flex flex-col items-center gap-2 rounded-lg p-2 text-center" onclick="openWhatsAppApp()" title="Open WhatsApp">
+        <span class="flex h-14 w-14 items-center justify-center rounded-[16px] bg-[#25d366] shadow-xl shadow-black/25">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="message-circle" aria-hidden="true" class="lucide lucide-message-circle h-8 w-8 fill-white text-white"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg>
+        </span>
+        <span class="text-[12px] font-semibold tracking-wide drop-shadow">WhatsApp</span>
+      </button>
+    </div>
+    <div class="h-12 border-t border-white/10 bg-[#0b1420]/75 px-4 backdrop-blur-md flex items-center justify-between text-xs text-slate-300">
+      <div class="flex items-center gap-3">
+        <button class="rounded-md p-2 hover:bg-white/10" title="Start menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="grid-2x2" aria-hidden="true" class="lucide lucide-grid-2x2 h-4 w-4"><path d="M12 3v18"></path><path d="M3 12h18"></path><rect x="3" y="3" width="18" height="18" rx="2"></rect></svg></button>
+        <span class="hidden sm:inline">Evidence workstation</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <span class="hidden sm:inline">Wi-Fi  •  Secure</span>
+        <span id="desktop-clock" class="font-mono">11:02 PM</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- WhatsApp application window -->
+  <div id="whatsapp-window" class="window-closed absolute left-1/2 top-1/2 z-10 flex -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-xl border border-white/20 bg-[#111b21] shadow-2xl shadow-black/50">
+    <div class="h-9 shrink-0 bg-[#17232b] px-3 flex items-center justify-between border-b border-white/10 text-slate-300">
+      <div class="flex items-center gap-2 text-xs font-semibold">
+        <span class="flex h-5 w-5 items-center justify-center rounded-md bg-[#25d366] text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="message-circle" aria-hidden="true" class="lucide lucide-message-circle h-3.5 w-3.5 fill-white"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg></span>
+        <span>WhatsApp</span>
+      </div>
+      <div class="flex items-center gap-1">
+        <button onclick="minimizeWhatsAppApp()" class="rounded p-1.5 hover:bg-white/10" title="Minimize"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="minus" aria-hidden="true" class="lucide lucide-minus h-4 w-4"><path d="M5 12h14"></path></svg></button>
+        <button onclick="closeWhatsAppApp()" class="rounded p-1.5 hover:bg-red-500/80" title="Close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" aria-hidden="true" class="lucide lucide-x h-4 w-4"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button>
+      </div>
+    </div>
+
+    <div class="flex min-h-0 flex-1 flex-col">
+
+  <!-- Top Evidence Incident Banner -->
+  <div class="bg-gradient-to-r from-red-950 via-zinc-900 to-red-950 text-red-100 text-xs px-4 py-1.5 flex items-center justify-between border-b border-red-800/40 shadow-md z-50 shrink-0">
+    <div class="flex items-center space-x-2.5">
+      <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-ping"></span>
+      <span class="font-bold tracking-wide uppercase text-red-300">VICTIM DEVICE BACKUP:</span>
+      <span class="font-mono text-amber-200">SHASHWATH'S WHATSAPP WEB (ACCOUNTHOLDER: SW)</span>
+    </div>
+    <div class="flex items-center space-x-4">
+      <button onclick="showBriefingModal()" class="bg-red-900/70 hover:bg-red-800 text-red-200 px-3 py-0.5 rounded text-[11px] font-semibold border border-red-700/60 transition flex items-center space-x-1.5 shadow-sm">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="file-text" aria-hidden="true" class="lucide lucide-file-text w-3.5 h-3.5"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+        <span>View Incident Dossier</span>
+      </button>
+      <span class="text-zinc-400 text-[11px] hidden sm:inline">Sync Status: <span class="text-emerald-400 font-mono font-semibold">MOBILE CLOUD BYPASS OK</span></span>
+    </div>
+  </div>
+
+  <!-- Main Desktop Container -->
+  <div class="flex-1 flex overflow-hidden relative">
+
+    <!-- 1. FAR-LEFT NAVIGATION RAIL (60px width) -->
+    <div class="w-[60px] bg-[#f0f2f5] dark:bg-[#202c33] border-r border-[#e9edef] dark:border-[#222d34] flex flex-col items-center justify-between py-3.5 z-30 shrink-0 shadow-sm transition-colors duration-200">
+      
+      <!-- Top Rail Navigation Icons -->
+      <div class="flex flex-col items-center space-y-4 w-full">
+        <!-- Chats Icon (Active) -->
+        <button class="relative w-10 h-10 rounded-full bg-[#e9edef] dark:bg-[#2a3942] text-[#00a884] flex items-center justify-center transition shadow-sm" title="Chats">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="message-square" aria-hidden="true" class="lucide lucide-message-square w-5 h-5"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"></path></svg>
+          <span id="rail-unread-badge" class="absolute -top-1 -right-1 bg-[#00a884] text-white dark:text-[#111b21] text-[10px] font-bold px-1.5 py-0.2 rounded-full min-w-[18px] text-center border-2 border-[#f0f2f5] dark:border-[#202c33]">13</span>
+        </button>
+
+        <!-- Status Icon -->
+        <button class="w-10 h-10 rounded-full hover:bg-[#e9edef] dark:hover:bg-[#2a3942] text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef] flex items-center justify-center transition" title="Status Updates">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="circle-dashed" aria-hidden="true" class="lucide lucide-circle-dashed w-5 h-5"><path d="M10.1 2.182a10 10 0 0 1 3.8 0"></path><path d="M13.9 21.818a10 10 0 0 1-3.8 0"></path><path d="M17.609 3.721a10 10 0 0 1 2.69 2.7"></path><path d="M2.182 13.9a10 10 0 0 1 0-3.8"></path><path d="M20.279 17.609a10 10 0 0 1-2.7 2.69"></path><path d="M21.818 10.1a10 10 0 0 1 0 3.8"></path><path d="M3.721 6.391a10 10 0 0 1 2.7-2.69"></path><path d="M6.391 20.279a10 10 0 0 1-2.69-2.7"></path></svg>
+        </button>
+
+        <!-- Channels Icon -->
+        <button class="w-10 h-10 rounded-full hover:bg-[#e9edef] dark:hover:bg-[#2a3942] text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef] flex items-center justify-center transition" title="Channels">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="newspaper" aria-hidden="true" class="lucide lucide-newspaper w-5 h-5"><path d="M15 18h-5"></path><path d="M18 14h-8"></path><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2"></path><rect width="8" height="4" x="10" y="6" rx="1"></rect></svg>
+        </button>
+
+        <!-- Communities Icon -->
+        <button class="w-10 h-10 rounded-full hover:bg-[#e9edef] dark:hover:bg-[#2a3942] text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef] flex items-center justify-center transition" title="Communities">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="users" aria-hidden="true" class="lucide lucide-users w-5 h-5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg>
+        </button>
+
+        <!-- Meta AI Icon -->
+        <button onclick="triggerMetaAIHint()" class="w-10 h-10 rounded-full hover:bg-[#e9edef] dark:hover:bg-[#2a3942] text-cyan-600 dark:text-cyan-400 flex items-center justify-center transition" title="Meta AI Forensic Assistant">
+          <div class="w-5 h-5 rounded-full border-2 border-cyan-500 border-t-purple-500 animate-spin"></div>
+        </button>
+      </div>
+
+      <!-- Bottom Rail Icons -->
+      <div class="flex flex-col items-center space-y-4 w-full">
+        <!-- Sun/Moon Theme Toggle -->
+        <button onclick="toggleTheme()" class="w-10 h-10 rounded-full hover:bg-[#e9edef] dark:hover:bg-[#2a3942] text-[#54656f] dark:text-[#8696a0] hover:text-amber-500 dark:hover:text-amber-300 flex items-center justify-center transition" title="Toggle Light / Dark Mode">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sun" aria-hidden="true" id="theme-icon" class="lucide lucide-sun w-5 h-5"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg>
+        </button>
+
+        <!-- Settings Icon -->
+        <button onclick="showBriefingModal()" class="w-10 h-10 rounded-full hover:bg-[#e9edef] dark:hover:bg-[#2a3942] text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef] flex items-center justify-center transition" title="Settings">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="settings" aria-hidden="true" class="lucide lucide-settings w-5 h-5"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+
+        <!-- Account Owner Avatar (SW - Shashwath) -->
+        <div class="relative cursor-pointer group" onclick="showBriefingModal()" title="Account Owner: Shashwath (SW)">
+          <div class="w-9 h-9 rounded-full bg-red-900 border-2 border-red-500 text-red-200 font-bold text-xs flex items-center justify-center shadow">
+            SW
+          </div>
+          <span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-red-500 border border-[#f0f2f5] dark:border-[#202c33]"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. SIDEBAR PANEL (360px width) -->
+    <div class="w-[360px] bg-white dark:bg-[#111b21] border-r border-[#e9edef] dark:border-[#222d34] flex flex-col shrink-0 z-20 transition-colors duration-200">
+      
+      <!-- Sidebar Header -->
+      <div class="h-[60px] bg-[#f0f2f5] dark:bg-[#202c33] px-4 flex items-center justify-between border-b border-[#e9edef] dark:border-[#222d34] transition-colors duration-200">
+        <div class="flex items-center space-x-2 cursor-pointer" onclick="showBriefingModal()">
+          <h1 class="text-lg font-bold text-[#111b21] dark:text-[#e9edef] tracking-tight">Shashwath's Web</h1>
+          <span class="bg-red-100 dark:bg-red-950 text-red-700 dark:text-red-300 text-[10px] font-mono font-bold px-2 py-0.5 rounded-full border border-red-300 dark:border-red-700/60 uppercase animate-pulse">
+            EVIDENCE DEV-01
+          </span>
+        </div>
+        <div class="flex items-center space-x-1 text-[#54656f] dark:text-[#8696a0]">
+          <button onclick="showBriefingModal()" class="p-2 hover:bg-[#e9edef] dark:hover:bg-[#2a3942] rounded-full transition text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef]" title="Case Briefing">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="file-search" aria-hidden="true" class="lucide lucide-file-search w-5 h-5"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><circle cx="11.5" cy="14.5" r="2.5"></circle><path d="M13.3 16.3 15 18"></path></svg>
+          </button>
+          <button onclick="alert('Digital Forensic Lock: Read-only victim backup active.')" class="p-2 hover:bg-[#e9edef] dark:hover:bg-[#2a3942] rounded-full transition text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef]" title="Options">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="more-vertical" aria-hidden="true" class="lucide lucide-more-vertical w-5 h-5"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Search Input Container -->
+      <div class="p-2.5 bg-white dark:bg-[#111b21] border-b border-[#e9edef] dark:border-[#222d34] transition-colors duration-200">
+        <div class="relative flex items-center bg-[#f0f2f5] dark:bg-[#202c33] rounded-lg px-3 py-1.5 focus-within:ring-1 focus-within:ring-[#00a884]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="search" aria-hidden="true" class="lucide lucide-search w-4 h-4 text-[#54656f] dark:text-[#8696a0] mr-2.5 shrink-0"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg>
+          <input type="text" id="search-input" onkeyup="filterChats()" placeholder="Search logs, names or keywords" class="w-full bg-transparent text-xs text-[#111b21] dark:text-[#e9edef] placeholder-[#54656f] dark:placeholder-[#8696a0] focus:outline-none">
+          <button id="clear-search-btn" onclick="clearSearch()" class="hidden text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" aria-hidden="true" class="lucide lucide-x w-4 h-4"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+          </button>
+        </div>
+
+        <!-- Filter Category Pills -->
+        <div class="flex items-center space-x-2 mt-2.5 overflow-x-auto no-scrollbar text-xs font-medium">
+          <button onclick="setFilter('all')" id="filter-all" class="filter-pill bg-[#e7fce3] dark:bg-[#0a332c] text-[#008069] dark:text-[#00a884] border border-[#00a884]/40 px-3 py-1 rounded-full whitespace-nowrap transition font-semibold">All Chats</button>
+          <button onclick="setFilter('unread')" id="filter-unread" class="filter-pill bg-[#f0f2f5] dark:bg-[#202c33] text-[#54656f] dark:text-[#8696a0] hover:bg-[#e9edef] dark:hover:bg-[#2a3942] px-3 py-1 rounded-full whitespace-nowrap transition flex items-center space-x-1">
+            <span>Unread</span>
+            <span class="bg-[#00a884] text-white dark:text-[#111b21] text-[10px] font-bold px-1.5 rounded-full" id="filter-unread-count">13</span>
+          </button>
+          <button onclick="setFilter('groups')" id="filter-groups" class="filter-pill bg-[#f0f2f5] dark:bg-[#202c33] text-[#54656f] dark:text-[#8696a0] hover:bg-[#e9edef] dark:hover:bg-[#2a3942] px-3 py-1 rounded-full whitespace-nowrap transition">Groups 🚀</button>
+        </div>
+      </div>
+
+      <!-- Chats Roster List -->
+      <div id="chats-list" class="flex-1 overflow-y-auto divide-y divide-[#e9edef]/60 dark:divide-[#222d34]/30"><div class="flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ">
+          <div class="relative shrink-0 mr-3">
+            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&amp;auto=format&amp;fit=crop&amp;q=80" alt="Ram (Lead Investigator 👮‍♂️)" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            
+            
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate font-bold">Ram (Lead Investigator 👮‍♂️)</h3>
+              <span class="text-[10px] text-[#00a884] font-bold">10:30 PM</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-[#54656f] dark:text-[#8696a0] truncate mr-2">
+                Shashwath's phone backup is active. Look for whoever tried to steer the investigation away from Tech Lab 302.
+              </p>
+              
+                <span class="bg-[#00a884] text-white dark:text-[#111b21] text-[10px] font-bold px-1.5 py-0.2 rounded-full min-w-[18px] text-center shrink-0 shadow-sm">
+                  1
+                </span>
+              
+            </div>
+          </div>
+        </div><div class="flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ">
+          <div class="relative shrink-0 mr-3">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&amp;auto=format&amp;fit=crop&amp;q=80" alt="Jhanvi (Media Club Head)" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            <span class="absolute bottom-0 right-0 w-3 h-3 bg-emerald-500 rounded-full border-2 border-white dark:border-[#111b21]"></span>
+            
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate font-bold">Jhanvi (Media Club Head)</h3>
+              <span class="text-[10px] text-[#00a884] font-bold">10:00 PM</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-[#54656f] dark:text-[#8696a0] truncate mr-2">
+                See you at 10.
+              </p>
+              
+                <span class="bg-[#00a884] text-white dark:text-[#111b21] text-[10px] font-bold px-1.5 py-0.2 rounded-full min-w-[18px] text-center shrink-0 shadow-sm">
+                  2
+                </span>
+              
+            </div>
+          </div>
+        </div><div class="flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ">
+          <div class="relative shrink-0 mr-3">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&amp;auto=format&amp;fit=crop&amp;q=80" alt="Lakshayaa (Project Creator)" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            
+            
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate ">Lakshayaa (Project Creator)</h3>
+              <span class="text-[10px] text-[#54656f] dark:text-[#8696a0]">6:18 PM</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-[#54656f] dark:text-[#8696a0] truncate mr-2">
+                why
+              </p>
+              
+            </div>
+          </div>
+        </div><div class="flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ">
+          <div class="relative shrink-0 mr-3">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&amp;auto=format&amp;fit=crop&amp;q=80" alt="Chaithanya (Best Friend)" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            <span class="absolute bottom-0 right-0 w-3 h-3 bg-emerald-500 rounded-full border-2 border-white dark:border-[#111b21]"></span>
+            
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate ">Chaithanya (Best Friend)</h3>
+              <span class="text-[10px] text-[#54656f] dark:text-[#8696a0]">7:19 PM</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-[#54656f] dark:text-[#8696a0] truncate mr-2">
+                that’s exactly what I’m worried about.
+              </p>
+              
+            </div>
+          </div>
+        </div><div class="flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ">
+          <div class="relative shrink-0 mr-3">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&amp;auto=format&amp;fit=crop&amp;q=80" alt="Thanu (Stalker)" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            
+            <span class="absolute bottom-0 right-0 w-3 h-3 bg-emerald-400 rounded-full border-2 border-white dark:border-[#111b21] animate-ping"></span>
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate font-bold">Thanu (Stalker)</h3>
+              <span class="text-[10px] text-[#00a884] font-bold">10:30 PM</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-[#00a884] font-medium truncate mr-2">
+                typing...
+              </p>
+              
+                <span class="bg-[#00a884] text-white dark:text-[#111b21] text-[10px] font-bold px-1.5 py-0.2 rounded-full min-w-[18px] text-center shrink-0 shadow-sm">
+                  1
+                </span>
+              
+            </div>
+          </div>
+        </div><div class="flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ">
+          <div class="relative shrink-0 mr-3">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&amp;auto=format&amp;fit=crop&amp;q=80" alt="Rithik (The Blackmailer)" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            <span class="absolute bottom-0 right-0 w-3 h-3 bg-emerald-500 rounded-full border-2 border-white dark:border-[#111b21]"></span>
+            
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate font-bold">Rithik (The Blackmailer)</h3>
+              <span class="text-[10px] text-[#00a884] font-bold">8:57 PM</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-[#54656f] dark:text-[#8696a0] truncate mr-2">
+                you will.
+              </p>
+              
+                <span class="bg-[#00a884] text-white dark:text-[#111b21] text-[10px] font-bold px-1.5 py-0.2 rounded-full min-w-[18px] text-center shrink-0 shadow-sm">
+                  4
+                </span>
+              
+            </div>
+          </div>
+        </div><div class="flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ">
+          <div class="relative shrink-0 mr-3">
+            <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&amp;auto=format&amp;fit=crop&amp;q=80" alt="Dhaarun (Collaborator)" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            
+            
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate ">Dhaarun (Collaborator)</h3>
+              <span class="text-[10px] text-[#54656f] dark:text-[#8696a0]">Yesterday</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-[#54656f] dark:text-[#8696a0] truncate mr-2">
+                🚫 This message was deleted
+              </p>
+              
+            </div>
+          </div>
+        </div><div class="flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ">
+          <div class="relative shrink-0 mr-3">
+            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&amp;auto=format&amp;fit=crop&amp;q=80" alt="Chrithika (Club Member)" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            
+            
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate ">Chrithika (Club Member)</h3>
+              <span class="text-[10px] text-[#54656f] dark:text-[#8696a0]">8:46 PM</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-[#54656f] dark:text-[#8696a0] truncate mr-2">
+                Why were you and Jhanvi yelling inside Lab 302? I could hear it from the stairs.
+              </p>
+              
+            </div>
+          </div>
+        </div><div class="flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ">
+          <div class="relative shrink-0 mr-3">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&amp;auto=format&amp;fit=crop&amp;q=80" alt="Sahana (Fake Supporter)" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            <span class="absolute bottom-0 right-0 w-3 h-3 bg-emerald-500 rounded-full border-2 border-white dark:border-[#111b21]"></span>
+            
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate font-bold">Sahana (Fake Supporter)</h3>
+              <span class="text-[10px] text-[#00a884] font-bold">6:38 PM</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-[#54656f] dark:text-[#8696a0] truncate mr-2">
+                It’s advice.
+              </p>
+              
+                <span class="bg-[#00a884] text-white dark:text-[#111b21] text-[10px] font-bold px-1.5 py-0.2 rounded-full min-w-[18px] text-center shrink-0 shadow-sm">
+                  5
+                </span>
+              
+            </div>
+          </div>
+        </div><div class="flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ">
+          <div class="relative shrink-0 mr-3">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=150&amp;auto=format&amp;fit=crop&amp;q=80" alt="Core Project Team 🚀" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            
+            
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate ">Core Project Team 🚀</h3>
+              <span class="text-[10px] text-[#54656f] dark:text-[#8696a0]">8:55 PM</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-[#54656f] dark:text-[#8696a0] truncate mr-2">
+                Tech Lab 302 Floorplan Map
+              </p>
+              
+            </div>
+          </div>
+        </div><div class="flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ">
+          <div class="relative shrink-0 mr-3">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&amp;auto=format&amp;fit=crop&amp;q=80" alt="Visalatsh" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            
+            
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate ">Visalatsh</h3>
+              <span class="text-[10px] text-[#54656f] dark:text-[#8696a0]">6:10 PM</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-[#54656f] dark:text-[#8696a0] truncate mr-2">
+                Maybe you should start answering them.
+              </p>
+              
+            </div>
+          </div>
+        </div><div class="flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ">
+          <div class="relative shrink-0 mr-3">
+            <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150&amp;auto=format&amp;fit=crop&amp;q=80" alt="Sreeman" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            
+            
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate ">Sreeman</h3>
+              <span class="text-[10px] text-[#54656f] dark:text-[#8696a0]">6:39 PM</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-[#54656f] dark:text-[#8696a0] truncate mr-2">
+                Maybe you should’ve thought about that before.
+              </p>
+              
+            </div>
+          </div>
+        </div></div>
+    </div>
+
+    <!-- 3. MAIN CONVERSATION WINDOW (70% width) -->
+    <div class="flex-1 flex flex-col relative chat-bg transition-colors duration-200" id="main-chat-window">
+      
+      <!-- DEFAULT BRIEFING SCREEN (Shown before selecting any chat) -->
+      <div id="default-briefing-screen" class="flex-1 flex flex-col items-center justify-center p-8 text-center z-20">
+        <div class="w-20 h-20 rounded-full bg-white dark:bg-[#202c33] border-2 border-red-500/40 flex items-center justify-center text-red-500 dark:text-red-400 mb-5 shadow-xl">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shield-alert" aria-hidden="true" class="lucide lucide-shield-alert w-10 h-10"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>
+        </div>
+        <h2 class="text-2xl font-bold text-[#111b21] dark:text-[#e9edef] mb-2 tracking-tight">CASE FILE: TECH BLOCK HOMICIDE</h2>
+        <p class="text-xs font-mono text-red-600 dark:text-red-400 mb-4 bg-red-100 dark:bg-red-950/60 px-3 py-1 rounded-full border border-red-300 dark:border-red-800/50">
+          Bypassed Mobile Data Cloud Sync — Accountholder: Shashwath (Victim)
+        </p>
+        <div class="max-w-md bg-white dark:bg-[#202c33] p-5 rounded-xl border border-[#e9edef] dark:border-[#222d34] text-xs text-[#54656f] dark:text-[#8696a0] space-y-3 text-left shadow-lg">
+          <p class="text-[#111b21] dark:text-[#e9edef] font-semibold">🔍 Investigator Quick Guide:</p>
+          <ul class="list-disc list-inside space-y-1.5">
+            <li>Select any of the 10 chats from the left sidebar to inspect recovered text threads, terminal cards, and voice note transcripts.</li>
+            <li>Use the <strong class="text-amber-600 dark:text-amber-300">Info (i)</strong> button in the chat header to view suspect motive assessments and subtext clue trackers.</li>
+            <li>Type interrogation questions into the message bar to dynamically test suspect alibis and auto-replies.</li>
+          </ul>
+        </div>
+        <p class="text-[11px] text-[#54656f] dark:text-[#8696a0] mt-6 italic">Select a contact on the left sidebar to begin cross-referencing timeline evidence.</p>
+      </div>
+
+      <!-- ACTIVE CHAT VIEW (Hidden by default until a chat is clicked) -->
+      <div id="active-chat-view" class="flex-1 flex flex-col h-full hidden">
+        
+        <!-- Active Chat Header -->
+        <div class="h-[60px] bg-[#f0f2f5] dark:bg-[#202c33] px-4 flex items-center justify-between border-b border-[#e9edef] dark:border-[#222d34] z-20 shrink-0 transition-colors duration-200">
+          <div class="flex items-center space-x-3 cursor-pointer" onclick="toggleInfoDrawer()">
+            <div class="relative">
+              <img id="active-avatar" src="" alt="Avatar" class="w-10 h-10 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+              <span id="active-status-dot" class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-[#f0f2f5] dark:border-[#202c33]"></span>
+            </div>
+
+            <div>
+              <div class="flex items-center space-x-2">
+                <h2 id="active-name" class="font-semibold text-[#111b21] dark:text-[#e9edef] text-base leading-tight">Contact Name</h2>
+                <span id="active-role-tag" class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded bg-amber-100 dark:bg-amber-900/60 text-amber-800 dark:text-amber-300 border border-amber-300 dark:border-amber-700/50">SUSPECT</span>
+              </div>
+              <p id="active-status" class="text-xs text-[#54656f] dark:text-[#8696a0] truncate max-w-[280px]">Status subtitle</p>
+            </div>
+          </div>
+
+          <!-- Header Right Action Icons -->
+          <div class="flex items-center space-x-2 text-[#54656f] dark:text-[#8696a0]">
+            <button class="p-2 hover:bg-[#e9edef] dark:hover:bg-[#2a3942] rounded-full transition text-[#54656f] dark:text-[#8696a0] hover:text-[#00a884]" title="Simulate Encrypted Call" onclick="alert('Encrypted line offline — Accountholder deceased.')">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="video" aria-hidden="true" class="lucide lucide-video w-5 h-5"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path><rect x="2" y="6" width="14" height="12" rx="2"></rect></svg>
+            </button>
+            <button class="p-2 hover:bg-[#e9edef] dark:hover:bg-[#2a3942] rounded-full transition text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef]" title="Search Inside Chat" onclick="toggleInChatSearch()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="search" aria-hidden="true" class="lucide lucide-search w-5 h-5"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg>
+            </button>
+            <button class="p-2 hover:bg-[#e9edef] dark:hover:bg-[#2a3942] rounded-full transition text-[#54656f] dark:text-[#8696a0] hover:text-amber-500 dark:hover:text-amber-400" title="Open Suspect Info Drawer (i)" onclick="toggleInfoDrawer()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="info" aria-hidden="true" class="lucide lucide-info w-5 h-5"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- In-Chat Search Bar -->
+        <div id="in-chat-search-bar" class="hidden bg-[#f0f2f5] dark:bg-[#111b21] p-2 px-4 border-b border-[#e9edef] dark:border-[#222d34] flex items-center space-x-2 z-20">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="search" aria-hidden="true" class="lucide lucide-search w-4 h-4 text-[#54656f] dark:text-[#8696a0]"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg>
+          <input type="text" id="in-chat-input" placeholder="Search inside conversation..." class="flex-1 bg-transparent text-xs text-[#111b21] dark:text-[#e9edef] focus:outline-none">
+          <button onclick="toggleInChatSearch()" class="text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" aria-hidden="true" class="lucide lucide-x w-4 h-4"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+          </button>
+        </div>
+
+        <!-- Messages Container -->
+        <div id="messages-container" class="flex-1 overflow-y-auto p-4 md:px-10 space-y-3 relative">
+          <!-- Rendered dynamically -->
+        </div>
+
+        <!-- Typing Indicator Bar -->
+        <div id="typing-indicator-bar" class="hidden px-6 py-1 bg-white/90 dark:bg-[#111b21]/90 backdrop-blur border-t border-[#e9edef] dark:border-[#222d34] text-xs text-[#00a884] flex items-center space-x-2 z-10">
+          <span id="typing-name" class="font-semibold">Character</span>
+          <span>is typing response</span>
+          <div class="flex space-x-1 items-center">
+            <span class="w-1.5 h-1.5 bg-[#00a884] rounded-full animate-bounce"></span>
+            <span class="w-1.5 h-1.5 bg-[#00a884] rounded-full animate-bounce [animation-delay:0.2s]"></span>
+            <span class="w-1.5 h-1.5 bg-[#00a884] rounded-full animate-bounce [animation-delay:0.4s]"></span>
+          </div>
+        </div>
+
+        <!-- Message Interrogation Input Bar -->
+        <div class="h-[62px] bg-[#f0f2f5] dark:bg-[#202c33] px-4 flex items-center space-x-3 border-t border-[#e9edef] dark:border-[#222d34] z-20 shrink-0 transition-colors duration-200">
+          <button class="text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef] transition p-1.5" title="Emoji" onclick="insertEmoji('🕵️‍♂️')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="smile" aria-hidden="true" class="lucide lucide-smile w-6 h-6"><path d="M15 10V9"></path><path d="M16.472 15a6 6 0 01-8.943 0"></path><path d="M9 10V9"></path><circle cx="12" cy="12" r="10"></circle></svg>
+          </button>
+          <button class="text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef] transition p-1.5" title="Attach File" onclick="alert('File attachment disabled for evidence integrity.')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="plus" aria-hidden="true" class="lucide lucide-plus w-6 h-6"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>
+          </button>
+
+          <!-- Interrogation Input Field -->
+          <div class="flex-1 bg-white dark:bg-[#2a3942] rounded-lg px-4 py-2 flex items-center shadow-inner">
+            <input type="text" id="message-input" placeholder="Type interrogation question or reply..." onkeydown="handleInputKeyDown(event)" class="w-full bg-transparent text-xs text-[#111b21] dark:text-[#e9edef] placeholder-[#54656f] dark:placeholder-[#8696a0] focus:outline-none">
+          </div>
+
+          <!-- Send Interrogation Button -->
+          <button onclick="sendInterrogationMessage()" class="w-10 h-10 rounded-full bg-[#00a884] text-white dark:text-[#111b21] hover:bg-[#008069] flex items-center justify-center transition font-bold shadow" title="Send Interrogation Question">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="send" aria-hidden="true" class="lucide lucide-send w-5 h-5 fill-current"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path><path d="m21.854 2.147-10.94 10.939"></path></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 4. RIGHT-SIDE INFO DRAWER (320px width) -->
+    <div id="info-drawer" class="w-[320px] bg-white dark:bg-[#111b21] border-l border-[#e9edef] dark:border-[#222d34] flex flex-col transition-all duration-300 transform translate-x-full absolute right-0 top-0 bottom-0 z-40 shadow-2xl">
+      
+      <!-- Drawer Header -->
+      <div class="h-[60px] bg-[#f0f2f5] dark:bg-[#202c33] px-4 flex items-center justify-between border-b border-[#e9edef] dark:border-[#222d34]">
+        <div class="flex items-center space-x-2 text-amber-600 dark:text-amber-400 font-bold text-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user-check" aria-hidden="true" class="lucide lucide-user-check w-4 h-4"><path d="m16 11 2 2 4-4"></path><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle></svg>
+          <span>Investigative Dossier</span>
+        </div>
+        <button onclick="toggleInfoDrawer()" class="text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef] p-1 rounded-full hover:bg-[#e9edef] dark:hover:bg-[#2a3942]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" aria-hidden="true" class="lucide lucide-x w-5 h-5"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+        </button>
+      </div>
+
+      <!-- Drawer Content -->
+      <div class="flex-1 overflow-y-auto p-4 space-y-4">
+        <!-- Contact Profile Avatar -->
+        <div class="flex flex-col items-center text-center pb-3 border-b border-[#e9edef] dark:border-[#222d34]">
+          <img id="drawer-avatar" src="" alt="Avatar" class="w-20 h-20 rounded-full object-cover border-2 border-[#f0f2f5] dark:border-[#202c33] mb-2 shadow">
+          <h3 id="drawer-name" class="font-bold text-[#111b21] dark:text-[#e9edef] text-lg leading-tight">Contact Name</h3>
+          <span id="drawer-role-tag" class="mt-1 text-[10px] uppercase font-bold px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/60 text-red-700 dark:text-red-300 border border-red-300 dark:border-red-700/50">SUSPECT</span>
+          <p id="drawer-status" class="text-[11px] text-[#54656f] dark:text-[#8696a0] mt-1">Status text</p>
+        </div>
+
+        <!-- Section 1: Investigative Relationship -->
+        <div class="bg-[#f0f2f5] dark:bg-[#202c33] p-3 rounded-lg border border-[#e9edef] dark:border-[#222d34]">
+          <h4 class="text-[11px] font-bold text-amber-700 dark:text-amber-400 uppercase tracking-wider mb-1 flex items-center space-x-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="link" aria-hidden="true" class="lucide lucide-link w-3.5 h-3.5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+            <span>Investigative Relationship</span>
+          </h4>
+          <p id="drawer-relationship" class="text-xs text-[#111b21] dark:text-[#e9edef] leading-relaxed">
+            Relationship details...
+          </p>
+        </div>
+
+        <!-- Section 2: Motive Assessment -->
+        <div class="bg-[#f0f2f5] dark:bg-[#202c33] p-3 rounded-lg border border-[#e9edef] dark:border-[#222d34]">
+          <h4 class="text-[11px] font-bold text-red-700 dark:text-red-400 uppercase tracking-wider mb-1 flex items-center space-x-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="target" aria-hidden="true" class="lucide lucide-target w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+            <span>Motive Assessment</span>
+          </h4>
+          <p id="drawer-motive" class="text-xs text-[#111b21] dark:text-[#e9edef] leading-relaxed">
+            Motive details...
+          </p>
+        </div>
+
+        <!-- Section 3: Subtext Clue Tracker -->
+        <div class="bg-[#f0f2f5] dark:bg-[#202c33] p-3 rounded-lg border border-emerald-500/40">
+          <h4 class="text-[11px] font-bold text-emerald-700 dark:text-emerald-400 uppercase tracking-wider mb-1.5 flex items-center space-x-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sparkles" aria-hidden="true" class="lucide lucide-sparkles w-3.5 h-3.5"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg>
+            <span>Subtext Clue Tracker</span>
+          </h4>
+          <ul id="drawer-clues-list" class="space-y-1.5 text-xs text-[#111b21] dark:text-[#e9edef] list-disc list-inside">
+            <!-- Dynamic hints -->
+          </ul>
+        </div>
+
+        <!-- Section 4: Detective Notes Field -->
+        <div>
+          <div class="flex items-center justify-between mb-1">
+            <h4 class="text-[11px] font-bold text-[#54656f] dark:text-[#8696a0] uppercase tracking-wider">Detective Notes</h4>
+            <span class="text-[9px] text-emerald-600 dark:text-emerald-400 font-mono">AUTO-SAVED</span>
+          </div>
+          <textarea id="drawer-notes" rows="3" oninput="saveDetectiveNotes()" placeholder="Record contradictions, alibi flaws, or cipher guesses..." class="w-full bg-[#f0f2f5] dark:bg-[#202c33] border border-[#e9edef] dark:border-[#222d34] rounded-lg p-2.5 text-xs text-[#111b21] dark:text-[#e9edef] placeholder-[#54656f] dark:placeholder-[#8696a0] focus:outline-none focus:border-[#00a884] resize-none shadow-inner"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. FORENSIC DOSSIER BRIEFING MODAL -->
+    <div id="briefing-modal" class="fixed inset-0 bg-black/75 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+      <div class="bg-white dark:bg-[#111b21] border border-red-500/40 rounded-2xl max-w-2xl w-full p-6 text-[#111b21] dark:text-[#e9edef] shadow-2xl relative">
+        <button onclick="closeBriefingModal()" class="absolute top-4 right-4 text-[#54656f] dark:text-[#8696a0] hover:text-[#111b21] dark:hover:text-[#e9edef]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" aria-hidden="true" class="lucide lucide-x w-6 h-6"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+        </button>
+
+        <div class="flex items-center space-x-3 mb-4 text-red-600 dark:text-red-400 border-b border-[#e9edef] dark:border-[#222d34] pb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shield-alert" aria-hidden="true" class="lucide lucide-shield-alert w-8 h-8"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>
+          <div>
+            <h2 class="text-xl font-bold tracking-tight">TECH BLOCK HOMICIDE — FORENSIC DOSSIER</h2>
+            <p class="text-xs text-[#54656f] dark:text-[#8696a0]">Victim: Shashwath | Location: Tech Lab 302 | Estimated Time of Death: ~8:50 PM</p>
+          </div>
+        </div>
+
+        <div class="space-y-4 text-xs text-[#111b21] dark:text-[#e9edef] leading-relaxed max-h-[60vh] overflow-y-auto pr-2">
+          <div class="bg-[#f0f2f5] dark:bg-[#202c33] p-3.5 rounded-lg border border-red-500/30">
+            <h4 class="font-bold text-red-600 dark:text-red-400 text-xs uppercase mb-1">Crime Background &amp; Core Mystery:</h4>
+            <p>Victim <strong>Shashwath</strong> won major accolades for <em>Project Alpha</em>, an AI model he actually plagiarized from classmate Lakshayaa. Media Club Head <strong>Jhanvi</strong> confronted him after discovering the stolen code. However, Shashwath counter-blackmailed Jhanvi because he discovered she forged newspaper articles to win a $15,000 national journalism scholarship!</p>
+            <p class="mt-2">Jhanvi murdered him in Tech Lab 302 at ~8:50 PM to protect her reputation, using existing team feuds as a cover to frame the others.</p>
+          </div>
+
+          <div class="bg-[#f0f2f5] dark:bg-[#202c33] p-3.5 rounded-lg border border-[#e9edef] dark:border-[#222d34]">
+            <h4 class="font-bold text-amber-600 dark:text-amber-400 text-xs uppercase mb-1">Interrogation Guide:</h4>
+            <ul class="list-disc list-inside space-y-1 text-[#54656f] dark:text-[#8696a0]">
+              <li>Examine all 10 chats to cross-verify physical locations around 8:50 PM.</li>
+              <li>Pay close attention to Thanu's key witness timeline (seeing someone in a dark Media Club press jacket entering the stairwell).</li>
+              <li>Check Chrithika's witness testimony regarding loud screaming inside Lab 302 at 8:46 PM.</li>
+              <li>Type questions into the message bar to trigger live suspect auto-replies!</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-6 flex justify-end">
+          <button onclick="closeBriefingModal()" class="bg-[#00a884] hover:bg-[#008069] text-white dark:text-[#111b21] font-bold px-6 py-2 rounded-lg text-xs uppercase tracking-wider transition shadow">
+            Begin Interrogation 🔍
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  <!-- APPLICATION SCRIPT DATA & LOGIC -->
+  <script>
+    // -------------------------------------------------------------
+    // EXACT 10 CHATS DATA ROSTER ACCORDING TO SPECIFICATIONS
+    // -------------------------------------------------------------
+    const CHATS_DATA = [
+      {
+        id: 'ram',
+        name: 'Ram (Lead Investigator 👮‍♂️)',
+        avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80',
+        status: 'Incident Control Dashboard',
+        roleTag: 'LEAD INVESTIGATOR',
+        roleColor: 'bg-blue-100 dark:bg-blue-900/60 text-blue-800 dark:text-blue-300 border-blue-300 dark:border-blue-700/50',
+        lastTime: '10:30 PM',
+        unread: 1,
+        isGroup: false,
+        relationship: 'Police Chief assigned to campus homicide.',
+        motive: 'N/A — Guiding contestants to cross-examine suspects.',
+        subtextClues: [
+          'Instructs players to find the person attempting to control the narrative.',
+          'Highlights contradiction between Jhanvi\'s darkroom alibi and tower logs.'
+        ],
+        autoReplies: [
+          "Look closely at Jhanvi's timeline compared to the server power grids.",
+          "The stalker observed the exact minute the room went dark."
+        ],
+        messages: [
+          { sender: 'Ram', text: "Contestants: Analyze the cross-linked contradictions below.", time: '10:28 PM', isMe: false },
+          { sender: 'Ram', text: "Shashwath's phone backup is active. Look for whoever tried to steer the investigation away from Tech Lab 302.", time: '10:30 PM', isMe: false }
+        ]
+      },
+      {
+        id: 'jhanvi',
+        name: 'Jhanvi (Media Club Head)',
+        avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80',
+        status: 'Online',
+        roleTag: 'THE KILLER 🚨',
+        roleColor: 'bg-red-200 dark:bg-red-950 text-red-800 dark:text-red-200 border-red-500 font-extrabold animate-pulse',
+        lastTime: '10:00 PM',
+        unread: 2,
+        isGroup: false,
+        relationship: 'Media Club President; blackmailing victim over scholarship forgery.',
+        motive: 'Kill Shashwath before he exposes her $15,000 journalism scholarship forgery to the Dean.',
+        subtextClues: [
+          'Panic text at 5:12 PM requesting private meeting in Lab 302 at 8:40 PM.',
+          'Text at 11:48 PM attempting fake innocence, but cell tower pins her in tech block at 8:50 PM.'
+        ],
+        autoReplies: [
+          "I was in the ground floor darkroom editing the festival clips until midnight.",
+          "Why would I care about the server room power matrix? I just take profile shots."
+        ],
+        messages: [
+          { sender: 'Jhaanvi', text: 'You have until tonight.', time: '5:42 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I already told you. No.', time: '5:44 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'Then I’ll tell everyone.', time: '5:45 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'You wouldn’t.', time: '5:46 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'I have the screenshots, Shashwath.', time: '5:47 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Delete them.', time: '5:48 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'Why? So you can keep pretending you did nothing?', time: '5:49 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'You don’t know the whole story.', time: '5:50 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'I know enough.', time: '5:51 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'What do you want?', time: '5:52 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'The truth.', time: '5:53 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'You don’t want the truth.', time: '5:54 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'Fine.', time: '5:55 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Jhaanvi', text: 'Then I’ll tell everyone what you did.', time: '5:55 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Don’t.', time: '5:57 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'Now you’re listening.', time: '5:58 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Jhaanvi', text: 'Last chance.', time: '9:48 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I said I’ll deal with it.', time: '9:49 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'No. You said that yesterday.', time: '9:50 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Please just give me time.', time: '9:51 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'You had time.', time: '9:52 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Jhaanvi, please.', time: '9:53 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: '10 PM.', time: '9:54 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'And if I don’t?', time: '9:55 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'Everyone finds out what you did.', time: '9:56 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'You’d destroy my life.', time: '9:57 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'You should’ve thought about that before you did it.', time: '9:58 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'You don’t understand.', time: '9:59 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'Then explain it.', time: '10:00 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I can’t.', time: '10:00 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Jhaanvi', text: 'Then neither can I.', time: '10:00 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Jhaanvi', text: 'See you at 10.', time: '10:00 PM', date: 'SEPTEMBER 7, 2026', isMe: false }
+        ]
+      },
+      {
+        id: 'lakshayaa',
+        name: 'Lakshayaa (Project Creator)',
+        avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
+        status: 'Last seen today at 3:14 AM',
+        roleTag: 'RED HERRING / CREATOR',
+        roleColor: 'bg-orange-100 dark:bg-orange-900/60 text-orange-800 dark:text-orange-300 border-orange-300 dark:border-orange-700/50',
+        lastTime: '6:18 PM',
+        unread: 0,
+        isGroup: false,
+        relationship: 'Original author of Project Alpha ML algorithm stolen by Shashwath.',
+        motive: 'Furious over code theft; threatened legal action.',
+        subtextClues: [
+          'Attached terminal commit history proving code theft.',
+          'Was at the campus library gate scanners all night (verified alibi).'
+        ],
+        autoReplies: [
+          "I wanted him exposed, not dead! Check the library gate scanners, I was there all night."
+        ],
+        messages: [
+          { sender: 'Lakshayaa', text: 'you didn’t mention me.', time: '7:42 PM', date: 'SEPTEMBER 5, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'mention you for what 😭', time: '7:44 PM', date: 'SEPTEMBER 5, 2026', isMe: true, status: 'read' },
+          { sender: 'Lakshayaa', text: 'AURA.', time: '7:44 PM', date: 'SEPTEMBER 5, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'oh we’re doing this again', time: '7:46 PM', date: 'SEPTEMBER 5, 2026', isMe: true, status: 'read' },
+          { sender: 'Lakshayaa', text: 'you know it was my idea.', time: '7:47 PM', date: 'SEPTEMBER 5, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'your idea was a prototype.', time: '7:49 PM', date: 'SEPTEMBER 5, 2026', isMe: true, status: 'read' },
+          { sender: 'Lakshayaa', text: 'and you took it.', time: '7:50 PM', date: 'SEPTEMBER 5, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I improved it.', time: '7:52 PM', date: 'SEPTEMBER 5, 2026', isMe: true, status: 'read' },
+          { sender: 'Lakshayaa', text: 'that’s a very convenient way of saying it.', time: '7:53 PM', date: 'SEPTEMBER 5, 2026', isMe: false },
+          { sender: 'Lakshayaa', text: 'I’m serious, Shashwath.', time: '10:18 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'about?', time: '10:20 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Lakshayaa', text: 'if you don’t tell them where AURA came from, I will.', time: '10:20 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'go ahead.', time: '10:23 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Lakshayaa', text: 'you really think they’ll believe you?', time: '10:24 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'yes.', time: '10:25 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Lakshayaa', text: 'we’ll see.', time: '10:26 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Lakshayaa', text: 'we need to settle this.', time: '6:14 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'not tonight.', time: '6:17 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Lakshayaa', text: 'why', time: '6:18 PM', date: 'SEPTEMBER 7, 2026', isMe: false }
+        ]
+      },
+      {
+        id: 'chaithanya',
+        name: 'Chaithanya (Best Friend)',
+        avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80',
+        status: 'Online',
+        roleTag: 'BEST FRIEND / RED HERRING',
+        roleColor: 'bg-purple-100 dark:bg-purple-900/60 text-purple-800 dark:text-purple-300 border-purple-300 dark:border-purple-700/50',
+        lastTime: '7:19 PM',
+        unread: 0,
+        isGroup: false,
+        relationship: 'Shashwath\'s confidante.',
+        motive: 'Tried to protect Shashwath from public exposure.',
+        subtextClues: [
+          'Knew Shashwath claimed to have "leverage" over Jhanvi.',
+          'Desperately texted him after 9:00 PM.'
+        ],
+        autoReplies: [
+          "I only wanted to protect him. He was becoming paranoid about Jhanvi's interview questions."
+        ],
+        messages: [
+          { sender: 'Chaithanya', text: 'you’ve been weird.', time: '8:31 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I’m fine.', time: '8:33 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Chaithanya', text: 'you’ve said that like 6 times.', time: '8:33 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'because I’m fine.', time: '8:35 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Chaithanya', text: 'who’s bothering you?', time: '8:36 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'no one.', time: '8:39 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Chaithanya', text: 'don’t lie to me.', time: '8:40 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I’ll tell you when I can.', time: '8:43 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Chaithanya', text: 'meet me tonight.', time: '7:08 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'can’t.', time: '7:11 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Chaithanya', text: 'why?', time: '7:11 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'someone’s coming.', time: '7:13 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Chaithanya', text: 'who?', time: '7:14 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I’ll explain tomorrow.', time: '7:16 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Chaithanya', text: 'who is bothering you?', time: '7:17 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Chaithanya', text: 'Shashwath.', time: '7:17 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'trust me.', time: '7:18 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Chaithanya', text: 'that’s exactly what I’m worried about.', time: '7:19 PM', date: 'SEPTEMBER 7, 2026', isMe: false }
+        ]
+      },
+      {
+        id: 'thanu',
+        name: 'Thanu (Stalker)',
+        avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80',
+        status: 'Typing...',
+        roleTag: 'KEY WITNESS',
+        roleColor: 'bg-emerald-100 dark:bg-emerald-900/60 text-emerald-800 dark:text-emerald-300 border-emerald-300 dark:border-emerald-700/50',
+        lastTime: '10:30 PM',
+        unread: 1,
+        isGroup: false,
+        relationship: 'Stalker monitoring Shashwath\'s movements.',
+        motive: 'Observational witness; no direct physical conflict.',
+        subtextClues: [
+          'Saw someone in a dark Media Club press jacket follow him into Tech Wing at 8:44 PM.',
+          'Noted 3rd floor windows went pitch black at 8:52 PM.',
+          'Saw Jhanvi run out fire exit alone at 9:05 PM.'
+        ],
+        autoReplies: [
+          "The 3rd-floor windows went pitch black at exactly 8:52 PM.",
+          "Why was Jhanvi running out of the fire exit alone at 9:05 PM if she was in the darkroom?"
+        ],
+        messages: [
+          { sender: 'Thanu', text: 'you looked tired today.', time: '4:27 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'thanks?', time: '4:31 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Thanu', text: 'you didn’t sleep.', time: '4:32 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'how do you know?', time: '4:33 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Thanu', text: 'you looked tired.', time: '4:35 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Thanu', text: 'you’re still at the lab?', time: '10:04 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'how do you know where I am?', time: '10:06 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Thanu', text: 'you told me.', time: '10:07 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I didn’t.', time: '10:08 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Thanu', text: 'maybe I saw you.', time: '10:10 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'where?', time: '10:11 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Thanu', text: 'around.', time: '10:12 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'that’s creepy.', time: '10:13 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Thanu', text: 'sorry :(', time: '10:14 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Thanu', text: 'btw. you should be careful.', time: '10:24 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'of what?', time: '10:25 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Thanu', text: 'people.', time: '10:25 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'which people?', time: '10:26 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Thanu', text: 'the ones who pretend they care.', time: '10:27 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'what are you talking about?', time: '10:28 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Thanu', text: 'nothing.', time: '10:29 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Thanu.', time: '10:29 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Thanu', text: 'forget I said anything.', time: '10:30 PM', date: 'SEPTEMBER 7, 2026', isMe: false }
+        ]
+      },
+      {
+        id: 'rithik',
+        name: 'Rithik (The Blackmailer)',
+        avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80',
+        status: 'Online',
+        roleTag: 'BLACKMAILER / RED HERRING',
+        roleColor: 'bg-amber-100 dark:bg-amber-900/60 text-amber-800 dark:text-amber-300 border-amber-300 dark:border-amber-700/50',
+        lastTime: '8:57 PM',
+        unread: 4,
+        isGroup: false,
+        relationship: 'Extorting Shashwath over code theft.',
+        motive: 'Financial extortion ($50k / BTC).',
+        subtextClues: [
+          'Injected RANSOM EXPLOIT PROTOCOL card with 11:00 PM countdown.',
+          'Operates remotely via proxies off-campus.'
+        ],
+        autoReplies: [
+          "I operate entirely through remote proxies off-campus. I sell secrets, I don't settle physical grudges."
+        ],
+        messages: [
+          { sender: 'Rithik', text: 'hey! I’m writing about AURA.', time: '2:16 PM', date: 'SEPTEMBER 1, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'oh nice', time: '2:18 PM', date: 'SEPTEMBER 1, 2026', isMe: true, status: 'read' },
+          { sender: 'Rithik', text: 'when are you free for an interview?', time: '2:19 PM', date: 'SEPTEMBER 1, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'tomorrow evening?', time: '2:21 PM', date: 'SEPTEMBER 1, 2026', isMe: true, status: 'read' },
+          { sender: 'Rithik', text: 'works for me.', time: '2:21 PM', date: 'SEPTEMBER 1, 2026', isMe: false },
+          { sender: 'Rithik', text: 'I spoke to Lakshayaa.', time: '6:03 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'oh.', time: '6:06 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Rithik', text: 'she says AURA was originally her idea.', time: '6:06 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'she told you that?', time: '6:08 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Rithik', text: 'yes.', time: '6:09 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'she’s exaggerating.', time: '6:11 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Rithik', text: 'are you sure?', time: '6:12 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Rithik', text: 'do you keep backups of everything?', time: '7:31 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'why?', time: '7:34 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Rithik', text: 'journalist habit.', time: '7:35 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'that’s not a journalist question.', time: '7:36 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Rithik', text: 'what’s a journalist question?', time: '7:37 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'what’s your favourite colour?', time: '7:38 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Rithik', text: 'blue.', time: '7:39 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'nice try.', time: '7:40 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Shashwath', text: 'I know.', time: '8:52 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' },
+          { sender: 'Rithik', text: 'know what?', time: '8:53 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Rithik', text: 'I don’t understand.', time: '8:56 PM', date: 'SEPTEMBER 7, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'you will.', time: '8:57 PM', date: 'SEPTEMBER 7, 2026', isMe: true, status: 'read' }
+        ]
+      },
+      {
+        id: 'dhaarun',
+        name: 'Dhaarun (Collaborator)',
+        avatar: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80',
+        status: 'Last seen yesterday',
+        roleTag: 'COLLABORATOR / RED HERRING',
+        roleColor: 'bg-zinc-200 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 border-zinc-400 dark:border-zinc-600',
+        lastTime: 'Yesterday',
+        unread: 0,
+        isGroup: false,
+        relationship: 'Co-contributor cut from author credits.',
+        motive: 'Resentment over paper authorship.',
+        subtextClues: [
+          'Deleted shared drive components at 8:00 PM out of spite.',
+          'Was at campus dining hall during crime.'
+        ],
+        autoReplies: [
+          "I deleted some development components from the shared drive out of spite at 8:00 PM, but I wasn't in Room 302."
+        ],
+        messages: [
+          { sender: 'Dhaarun', text: "Enjoy the trophy while you can. Things change fast around here.", time: 'Yesterday', isMe: false },
+          { sender: 'Dhaarun', text: "This message was deleted", time: 'Yesterday', isMe: false, isDeleted: true }
+        ]
+      },
+      {
+        id: 'chrithika',
+        name: 'Chrithika (Club Member)',
+        avatar: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&auto=format&fit=crop&q=80',
+        status: 'Last seen 2h ago',
+        roleTag: 'WITNESS',
+        roleColor: 'bg-emerald-100 dark:bg-emerald-900/60 text-emerald-800 dark:text-emerald-300 border-emerald-300 dark:border-emerald-700/50',
+        lastTime: '8:46 PM',
+        unread: 0,
+        isGroup: false,
+        relationship: 'Tech Club member.',
+        motive: 'Neutral witness.',
+        subtextClues: [
+          'Heard Jhanvi & Shashwath screaming inside Lab 302 at 8:46 PM.',
+          'Overheard Jhanvi shouting about "losing everything she worked for".'
+        ],
+        autoReplies: [
+          "Jhanvi shouted something about losing everything she worked for because of him."
+        ],
+        messages: [
+          { sender: 'Chrithika', text: "Why were you and Jhanvi yelling inside Lab 302? I could hear it from the stairs.", time: '8:46 PM', isMe: false }
+        ]
+      },
+      {
+        id: 'sahana',
+        name: 'Sahana (Fake Supporter)',
+        avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
+        status: 'Online',
+        roleTag: 'GOSSIP CATALYST',
+        roleColor: 'bg-pink-100 dark:bg-pink-900/60 text-pink-800 dark:text-pink-300 border-pink-300 dark:border-pink-700/50',
+        lastTime: '6:38 PM',
+        unread: 5,
+        isGroup: false,
+        relationship: 'Two-faced acquaintance.',
+        motive: 'Stirring drama among team members.',
+        subtextClues: [
+          'Pretends to support Shashwath in direct texts.',
+          'Forwarded code theft evidence to Lakshayaa behind his back.',
+          'Alibi: Dorm lounge movie stream with 10 witnesses.'
+        ],
+        autoReplies: [
+          "I was at the dormitory common lounge watching a movie stream with 10 witnesses."
+        ],
+        messages: [
+          { sender: 'Sahana', text: 'You told them about my past.', time: '6:18 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'It came up.', time: '6:20 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Sahana', text: 'You said you wouldn’t.', time: '6:21 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I didn’t say anything serious.', time: '6:22 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Sahana', text: 'You knew what would happen.', time: '6:24 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Then maybe you should’ve told me the truth.', time: '6:25 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Sahana', text: 'It’s not your story to tell.', time: '6:27 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Maybe not.', time: '6:28 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Sahana', text: 'Then leave it alone.', time: '6:29 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I can’t do that anymore.', time: '6:31 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Sahana', text: 'Why?', time: '6:32 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Because I know what you’ve been hiding.', time: '6:33 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Sahana', text: 'You really should’ve stayed out of it.', time: '6:35 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Is that a threat?', time: '6:36 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Sahana', text: 'No.', time: '6:37 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Sahana', text: 'It’s advice.', time: '6:38 PM', date: 'SEPTEMBER 6, 2026', isMe: false }
+        ]
+      },
+      {
+        id: 'group_core',
+        name: 'Core Project Team 🚀',
+        avatar: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=150&auto=format&fit=crop&q=80',
+        status: 'Lakshayaa, Chaithanya, Dhaarun, Shashwath, You',
+        roleTag: 'GROUP ARCHIVE',
+        roleColor: 'bg-blue-100 dark:bg-blue-900/60 text-blue-800 dark:text-blue-300 border-blue-300 dark:border-blue-700/50',
+        lastTime: '8:55 PM',
+        unread: 0,
+        isGroup: true,
+        relationship: 'Main Project Alpha team thread.',
+        motive: 'Internal dispute over project root access.',
+        subtextClues: [
+          'Contains lab floorplan map attachment card.',
+          'Lakshayaa threatens to turn history over to disciplinary board.'
+        ],
+        autoReplies: [
+          "Group Admin: Automated response archive active. Disciplinary board hold in effect."
+        ],
+        messages: [
+          { sender: 'Shashwath', text: "Root server credentials have been updated for fest security.", time: '8:20 PM', isMe: true, status: 'read' },
+          { sender: 'Lakshayaa', text: "I am turning this entire chat history over to the disciplinary board.", time: '8:55 PM', isMe: false, senderColor: 'text-amber-600 dark:text-amber-400' },
+          { sender: 'Dhaarun', text: "Tech Lab 302 Floorplan Map", time: '8:30 PM', isMe: false, senderColor: 'text-emerald-600 dark:text-emerald-400', isMapCard: true, mapTitle: 'Lab_302_Layout_Floorplan.png', mapSize: '1.2 MB' }
+        ]
+      }
+      ,{
+        id: 'visalatsh',
+        name: 'Visalatsh',
+        avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80',
+        status: 'Last seen today at 6:10 PM',
+        roleTag: 'PERSON OF INTEREST',
+        roleColor: 'bg-red-100 dark:bg-red-900/60 text-red-800 dark:text-red-300 border-red-300 dark:border-red-700/50',
+        lastTime: '6:10 PM',
+        unread: 0,
+        isGroup: false,
+        relationship: 'Connected to the missing funds investigation.',
+        motive: 'Under suspicion for withholding financial records.',
+        subtextClues: [
+          'Disputed responsibility for the missing money.',
+          'Warned Shashwath to stop asking questions.'
+        ],
+        autoReplies: [
+          'I have already told you everything I know.'
+        ],
+        messages: [
+          { sender: 'Visalatsh', text: 'You told them I took the money.', time: '5:42 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I said the records don’t add up.', time: '5:44 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Visalatsh', text: 'You know exactly how that sounds.', time: '5:45 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Then explain where it went.', time: '5:47 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Visalatsh', text: 'I already did.', time: '5:49 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Not very convincingly.', time: '5:50 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Visalatsh', text: 'You’re making this worse.', time: '5:52 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'For you or for me?', time: '5:54 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Visalatsh', text: 'Just stop digging.', time: '5:55 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I can’t.', time: '5:57 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Visalatsh', text: 'Why?', time: '5:58 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Because someone’s lying.', time: '6:00 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Visalatsh', text: 'And you think it’s me?', time: '6:01 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'I think you know more than you’re saying.', time: '6:03 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Visalatsh', text: 'You really don’t trust me.', time: '6:05 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Not anymore.', time: '6:06 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' },
+          { sender: 'Visalatsh', text: 'Then maybe you should stop asking questions.', time: '6:08 PM', date: 'SEPTEMBER 6, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Maybe you should start answering them.', time: '6:10 PM', date: 'SEPTEMBER 6, 2026', isMe: true, status: 'read' }
+        ]
+      },
+      {
+        id: 'sreeman',
+        name: 'Sreeman',
+        avatar: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150&auto=format&fit=crop&q=80',
+        status: 'Last seen today at 6:39 PM',
+        roleTag: 'PERSON OF INTEREST',
+        roleColor: 'bg-cyan-100 dark:bg-cyan-900/60 text-cyan-800 dark:text-cyan-300 border-cyan-300 dark:border-cyan-700/50',
+        lastTime: '6:39 PM',
+        unread: 0,
+        isGroup: false,
+        relationship: 'Received files connected to the investigation.',
+        motive: 'Possesses information Shashwath believes was concealed.',
+        subtextClues: [
+          'Admitted to finding something outside the shared folder.',
+          'Told Shashwath to forget what he saw.'
+        ],
+        autoReplies: [
+          'You should stop looking for answers you are not ready to hear.'
+        ],
+        messages: [
+          { sender: 'Shashwath', text: 'You sent the files to someone.', time: '6:18 PM', date: 'SEPTEMBER 5, 2026', isMe: true, status: 'read' },
+          { sender: 'Sreeman', text: 'What files?', time: '6:20 PM', date: 'SEPTEMBER 5, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'You know which ones.', time: '6:21 PM', date: 'SEPTEMBER 5, 2026', isMe: true, status: 'read' },
+          { sender: 'Sreeman', text: 'Why does it matter?', time: '6:23 PM', date: 'SEPTEMBER 5, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Because they weren’t meant to leave the folder.', time: '6:24 PM', date: 'SEPTEMBER 5, 2026', isMe: true, status: 'read' },
+          { sender: 'Sreeman', text: 'Neither was what I found.', time: '6:26 PM', date: 'SEPTEMBER 5, 2026', isMe: false },
+          { sender: 'Sreeman', text: 'You should’ve come to me first.', time: '6:27 PM', date: 'SEPTEMBER 5, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Would you have told me the truth?', time: '6:29 PM', date: 'SEPTEMBER 5, 2026', isMe: true, status: 'read' },
+          { sender: 'Sreeman', text: 'Doesn’t matter now.', time: '6:30 PM', date: 'SEPTEMBER 5, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'It does to me.', time: '6:32 PM', date: 'SEPTEMBER 5, 2026', isMe: true, status: 'read' },
+          { sender: 'Sreeman', text: 'Then forget you saw anything.', time: '6:34 PM', date: 'SEPTEMBER 5, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Not happening.', time: '6:35 PM', date: 'SEPTEMBER 5, 2026', isMe: true, status: 'read' },
+          { sender: 'Sreeman', text: 'You’re making this harder than it needs to be.', time: '6:37 PM', date: 'SEPTEMBER 5, 2026', isMe: false },
+          { sender: 'Shashwath', text: 'Maybe you should’ve thought about that before.', time: '6:39 PM', date: 'SEPTEMBER 5, 2026', isMe: true, status: 'read' }
+        ]
+      }
+    ];
+
+    // -------------------------------------------------------------
+    // STATE CONTROLLER LOGIC
+    // -------------------------------------------------------------
+    let currentChatId = null;
+    let currentFilter = 'all';
+
+    window.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+      renderChatsList();
+      updateUnreadBadges();
+      updateDesktopClock();
+      setInterval(updateDesktopClock, 30000);
+    });
+
+    function openWhatsAppApp() {
+      const appWindow = document.getElementById('whatsapp-window');
+      appWindow.classList.remove('window-closed', 'window-minimized');
+    }
+
+    function minimizeWhatsAppApp() {
+      document.getElementById('whatsapp-window').classList.add('window-minimized');
+    }
+
+    function closeWhatsAppApp() {
+      const appWindow = document.getElementById('whatsapp-window');
+      appWindow.classList.remove('window-minimized');
+      appWindow.classList.add('window-closed');
+    }
+
+    function updateDesktopClock() {
+      const clock = document.getElementById('desktop-clock');
+      if (clock) {
+        clock.innerText = new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+      }
+    }
+
+    // Render Sidebar Chats List
+    function renderChatsList() {
+      const listContainer = document.getElementById('chats-list');
+      const query = document.getElementById('search-input').value.toLowerCase().trim();
+
+      listContainer.innerHTML = '';
+
+      const filtered = CHATS_DATA.filter(chat => {
+        if (currentFilter === 'unread' && chat.unread === 0) return false;
+        if (currentFilter === 'groups' && !chat.isGroup) return false;
+
+        if (query) {
+          const nameMatch = chat.name.toLowerCase().includes(query);
+          const msgMatch = chat.messages.some(m => m.text && m.text.toLowerCase().includes(query));
+          return nameMatch || msgMatch;
+        }
+
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        listContainer.innerHTML = `
+          <div class="p-8 text-center text-[#54656f] dark:text-[#8696a0]">
+            <i data-lucide="search-x" class="w-8 h-8 mx-auto mb-2 opacity-40"></i>
+            <p class="text-xs">No chats matching "${query}"</p>
+          </div>
+        `;
+        lucide.createIcons();
+        return;
+      }
+
+      filtered.forEach(chat => {
+        const isActive = chat.id === currentChatId;
+        const lastMsg = chat.messages[chat.messages.length - 1];
+        let previewText = lastMsg ? lastMsg.text : '';
+        if (lastMsg && lastMsg.isDeleted) previewText = '🚫 This message was deleted';
+
+        const row = document.createElement('div');
+        row.className = `flex items-center px-3.5 py-3 cursor-pointer transition border-b border-[#e9edef]/60 dark:border-[#222d34]/30 hover:bg-[#f5f6f6] dark:hover:bg-[#202c33]/70 ${
+          isActive ? 'bg-[#f0f2f5] dark:bg-[#2a3942]/60 border-l-4 border-l-[#00a884]' : ''
+        }`;
+        row.onclick = () => selectChat(chat.id);
+
+        row.innerHTML = `
+          <div class="relative shrink-0 mr-3">
+            <img src="${chat.avatar}" alt="${chat.name}" class="w-11 h-11 rounded-full object-cover border border-[#e9edef] dark:border-[#222d34]">
+            ${chat.status === 'Online' ? '<span class="absolute bottom-0 right-0 w-3 h-3 bg-emerald-500 rounded-full border-2 border-white dark:border-[#111b21]"></span>' : ''}
+            ${chat.status.includes('Typing') ? '<span class="absolute bottom-0 right-0 w-3 h-3 bg-emerald-400 rounded-full border-2 border-white dark:border-[#111b21] animate-ping"></span>' : ''}
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-xs text-[#111b21] dark:text-[#e9edef] truncate ${chat.unread > 0 ? 'font-bold' : ''}">${chat.name}</h3>
+              <span class="text-[10px] ${chat.unread > 0 ? 'text-[#00a884] font-bold' : 'text-[#54656f] dark:text-[#8696a0]'}">${chat.lastTime}</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs ${chat.status.includes('Typing') ? 'text-[#00a884] font-medium' : 'text-[#54656f] dark:text-[#8696a0]'} truncate mr-2">
+                ${chat.status.includes('Typing') ? 'typing...' : previewText}
+              </p>
+              ${chat.unread > 0 ? `
+                <span class="bg-[#00a884] text-white dark:text-[#111b21] text-[10px] font-bold px-1.5 py-0.2 rounded-full min-w-[18px] text-center shrink-0 shadow-sm">
+                  ${chat.unread}
+                </span>
+              ` : ''}
+            </div>
+          </div>
+        `;
+
+        listContainer.appendChild(row);
+      });
+
+      lucide.createIcons();
+    }
+
+    // Select Active Chat
+    function selectChat(id) {
+      currentChatId = id;
+      const chat = CHATS_DATA.find(c => c.id === id);
+      if (!chat) return;
+
+      chat.unread = 0;
+      updateUnreadBadges();
+      renderChatsList();
+
+      // Hide briefing screen & show active chat view
+      document.getElementById('default-briefing-screen').classList.add('hidden');
+      document.getElementById('active-chat-view').classList.remove('hidden');
+
+      // Update Header Details
+      document.getElementById('active-avatar').src = chat.avatar;
+      document.getElementById('active-name').innerText = chat.name;
+      document.getElementById('active-status').innerText = chat.status;
+      
+      const roleTag = document.getElementById('active-role-tag');
+      roleTag.innerText = chat.roleTag;
+      roleTag.className = `text-[9px] uppercase font-bold px-1.5 py-0.2 rounded ${chat.roleColor}`;
+
+      const statusDot = document.getElementById('active-status-dot');
+      if (chat.status === 'Online') {
+        statusDot.className = 'absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-[#f0f2f5] dark:border-[#202c33]';
+      } else if (chat.status.includes('Typing')) {
+        statusDot.className = 'absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-400 border-2 border-[#f0f2f5] dark:border-[#202c33] animate-ping';
+      } else {
+        statusDot.className = 'absolute bottom-0 right-0 w-3 h-3 rounded-full bg-gray-400 dark:bg-gray-500 border-2 border-[#f0f2f5] dark:border-[#202c33]';
+      }
+
+      // Typing indicator bar
+      const typingBar = document.getElementById('typing-indicator-bar');
+      if (chat.status.includes('Typing')) {
+        document.getElementById('typing-name').innerText = chat.name;
+        typingBar.classList.remove('hidden');
+      } else {
+        typingBar.classList.add('hidden');
+      }
+
+      // Render Messages Bubbles
+      renderMessages(chat);
+
+      // Update Side Info Drawer Content
+      updateDrawer(chat);
+    }
+
+    // Render Chat Message Bubbles
+    function renderMessages(chat) {
+      const container = document.getElementById('messages-container');
+      container.innerHTML = '';
+
+      let previousDate = null;
+      chat.messages.forEach(msg => {
+        if (msg.date !== previousDate) {
+          const dateSeparator = document.createElement('div');
+          dateSeparator.className = 'flex justify-center my-3';
+          dateSeparator.innerHTML = `
+            <span class="bg-white dark:bg-[#182229] border border-[#e9edef] dark:border-[#222d34] text-[#54656f] dark:text-[#8696a0] text-[10px] font-mono font-semibold px-3 py-1 rounded-md uppercase tracking-wider shadow-sm">
+              RECOVERED CLOUD BACKUP — ${msg.date || 'OCTOBER 24, 2026'}
+            </span>
+          `;
+          container.appendChild(dateSeparator);
+          previousDate = msg.date;
+        }
+
+        const bubble = document.createElement('div');
+        bubble.className = `flex flex-col ${msg.isMe ? 'items-end' : 'items-start'} mb-3`;
+
+        let bodyHtml = '';
+
+        if (msg.isDeleted) {
+          bodyHtml = `
+            <div class="flex items-center space-x-2 text-[#54656f] dark:text-[#8696a0] italic text-xs py-1 px-2 bg-[#f0f2f5] dark:bg-[#182229]/80 rounded border border-red-500/20">
+              <i data-lucide="ban" class="w-4 h-4 text-red-500 dark:text-red-400"></i>
+              <span>This message was deleted</span>
+            </div>
+          `;
+        } else if (msg.isCodeCard) {
+          bodyHtml = `
+            <p class="text-xs mb-2 leading-relaxed">${msg.text}</p>
+            <div class="bg-slate-900 dark:bg-[#0c1317] p-2.5 rounded border border-emerald-500/50 font-mono text-[11px] text-emerald-400 overflow-x-auto shadow-inner">
+              <pre>${msg.codeSnippet}</pre>
+            </div>
+          `;
+        } else if (msg.isRansomCard) {
+          bodyHtml = `
+            <div class="bg-[#f0f2f5] dark:bg-[#111b21] p-3 rounded-lg border border-amber-500/50 space-y-2 shadow-inner">
+              <div class="flex items-center justify-between text-amber-700 dark:text-amber-400 font-bold font-mono text-xs border-b border-amber-500/30 pb-1">
+                <span>⚠️ ${msg.text}</span>
+                <span class="text-red-600 dark:text-red-400 animate-pulse">${msg.deadline}</span>
+              </div>
+              <p class="text-xs text-[#111b21] dark:text-[#e9edef]">Demanded Wallet: <span class="font-mono text-amber-800 dark:text-amber-200">${msg.wallet}</span></p>
+              <p class="text-xs text-[#111b21] dark:text-[#e9edef]">Ransom Amount: <span class="font-bold text-emerald-600 dark:text-emerald-400">${msg.amount}</span></p>
+            </div>
+          `;
+        } else if (msg.isIntercept) {
+          bodyHtml = `
+            <div class="bg-red-100 dark:bg-red-950/60 p-2.5 rounded border border-red-300 dark:border-red-700/50 text-red-800 dark:text-red-200 text-xs font-mono">
+              ⚠️ ${msg.text}
+            </div>
+          `;
+        } else if (msg.isMapCard) {
+          bodyHtml = `
+            <p class="text-xs mb-2 leading-relaxed">${msg.text}</p>
+            <div class="bg-white dark:bg-[#111b21] p-3 rounded-lg border border-blue-500/40 flex items-center space-x-3 cursor-pointer hover:bg-blue-50 dark:hover:bg-[#182229] transition shadow-sm" onclick="alert('Viewing Tech Lab 302 Floorplan Map Attachment')">
+              <div class="p-2 bg-blue-100 dark:bg-blue-900/50 rounded text-blue-700 dark:text-blue-300">
+                <i data-lucide="map" class="w-6 h-6"></i>
+              </div>
+              <div class="flex-1 min-w-0">
+                <p class="text-xs font-bold text-blue-800 dark:text-blue-200 truncate">${msg.mapTitle}</p>
+                <p class="text-[10px] text-[#54656f] dark:text-[#8696a0]">${msg.mapSize} • Image Attachment</p>
+              </div>
+              <i data-lucide="eye" class="w-4 h-4 text-blue-500"></i>
+            </div>
+          `;
+        } else {
+          bodyHtml = `<p class="text-xs leading-relaxed whitespace-pre-wrap">${msg.text}</p>`;
+        }
+
+        bubble.innerHTML = `
+          <div class="max-w-[85%] md:max-w-[70%] rounded-lg px-3 py-2 relative shadow ${
+            msg.isMe
+              ? 'bg-[#d9fdd3] dark:bg-[#005c4b] text-[#111b21] dark:text-[#e9edef] rounded-tr-none bubble-tail-out'
+              : 'bg-white dark:bg-[#202c33] text-[#111b21] dark:text-[#e9edef] rounded-tl-none bubble-tail-in'
+          }">
+            ${chat.isGroup && !msg.isMe ? `<p class="text-[10px] font-bold ${msg.senderColor || 'text-emerald-600 dark:text-emerald-400'} mb-1">${msg.sender}</p>` : ''}
+            
+            ${bodyHtml}
+
+            <div class="flex items-center justify-end space-x-1 mt-1 text-[9px] text-[#54656f] dark:text-[#8696a0]">
+              <span>${msg.time}</span>
+              ${msg.isMe ? `
+                <i data-lucide="check-check" class="w-3.5 h-3.5 ${msg.status === 'read' ? 'text-cyan-500 dark:text-cyan-400' : 'text-[#54656f] dark:text-[#8696a0]'}"></i>
+              ` : ''}
+            </div>
+          </div>
+        `;
+
+        container.appendChild(bubble);
+      });
+
+      lucide.createIcons();
+      container.scrollTop = container.scrollHeight;
+    }
+
+    // Interrogation Reply Handler (Outbound bubble + 1.5s auto-reply)
+    function sendInterrogationMessage() {
+      const input = document.getElementById('message-input');
+      const text = input.value.trim();
+      if (!text) return;
+
+      const chat = CHATS_DATA.find(c => c.id === currentChatId);
+      if (!chat) return;
+
+      const now = new Date();
+      const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+      // Append Outbound Interrogation Bubble
+      chat.messages.push({
+        sender: 'You',
+        text: text,
+        time: timeStr,
+        isMe: true,
+        status: 'read'
+      });
+
+      chat.lastTime = timeStr;
+      renderMessages(chat);
+      renderChatsList();
+
+      input.value = '';
+
+      // Show typing indicator bar
+      const typingBar = document.getElementById('typing-indicator-bar');
+      document.getElementById('typing-name').innerText = chat.name;
+      typingBar.classList.remove('hidden');
+
+      // Delayed Auto-Reply (1.5s)
+      setTimeout(() => {
+        typingBar.classList.add('hidden');
+        triggerAutoReply(chat);
+      }, 1500);
+    }
+
+    function triggerAutoReply(chat) {
+      if (!chat.autoReplies || chat.autoReplies.length === 0) return;
+
+      // Pick next reply sequentially
+      const replyText = chat.autoReplies.shift();
+      chat.autoReplies.push(replyText); // cycle back
+
+      const now = new Date();
+      const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+      chat.messages.push({
+        sender: chat.name,
+        text: replyText,
+        time: timeStr,
+        isMe: false
+      });
+
+      chat.lastTime = timeStr;
+
+      if (chat.id === currentChatId) {
+        renderMessages(chat);
+      }
+      renderChatsList();
+    }
+
+    function handleInputKeyDown(e) {
+      if (e.key === 'Enter') {
+        sendInterrogationMessage();
+      }
+    }
+
+    // Update Side Info Drawer
+    function updateDrawer(chat) {
+      document.getElementById('drawer-avatar').src = chat.avatar;
+      document.getElementById('drawer-name').innerText = chat.name;
+      
+      const roleTag = document.getElementById('drawer-role-tag');
+      roleTag.innerText = chat.roleTag;
+      roleTag.className = `mt-1 text-[10px] uppercase font-bold px-2 py-0.5 rounded-full ${chat.roleColor}`;
+
+      document.getElementById('drawer-status').innerText = chat.status;
+      document.getElementById('drawer-relationship').innerText = chat.relationship;
+      document.getElementById('drawer-motive').innerText = chat.motive;
+
+      const cluesList = document.getElementById('drawer-clues-list');
+      cluesList.innerHTML = '';
+      chat.subtextClues.forEach(clue => {
+        const li = document.createElement('li');
+        li.innerText = clue;
+        cluesList.appendChild(li);
+      });
+
+      // Load saved notes for contact
+      document.getElementById('drawer-notes').value = localStorage.getItem(`notes_${chat.id}`) || '';
+    }
+
+    function toggleInfoDrawer() {
+      const drawer = document.getElementById('info-drawer');
+      drawer.classList.toggle('translate-x-full');
+    }
+
+    function saveDetectiveNotes() {
+      if (!currentChatId) return;
+      const notes = document.getElementById('drawer-notes').value;
+      localStorage.setItem(`notes_${currentChatId}`, notes);
+    }
+
+    // Filters & Real-time Search
+    function setFilter(type) {
+      currentFilter = type;
+      document.querySelectorAll('.filter-pill').forEach(btn => {
+        btn.className = 'filter-pill bg-[#f0f2f5] dark:bg-[#202c33] text-[#54656f] dark:text-[#8696a0] hover:bg-[#e9edef] dark:hover:bg-[#2a3942] px-3 py-1 rounded-full whitespace-nowrap transition';
+      });
+
+      const active = document.getElementById(`filter-${type}`);
+      if (active) {
+        active.className = 'filter-pill bg-[#e7fce3] dark:bg-[#0a332c] text-[#008069] dark:text-[#00a884] border border-[#00a884]/40 px-3 py-1 rounded-full whitespace-nowrap transition font-semibold';
+      }
+
+      renderChatsList();
+    }
+
+    function filterChats() {
+      const val = document.getElementById('search-input').value;
+      const clearBtn = document.getElementById('clear-search-btn');
+      if (val) {
+        clearBtn.classList.remove('hidden');
+      } else {
+        clearBtn.classList.add('hidden');
+      }
+      renderChatsList();
+    }
+
+    function clearSearch() {
+      document.getElementById('search-input').value = '';
+      document.getElementById('clear-search-btn').classList.add('hidden');
+      renderChatsList();
+    }
+
+    function updateUnreadBadges() {
+      const total = CHATS_DATA.reduce((sum, c) => sum + c.unread, 0);
+      document.getElementById('rail-unread-badge').innerText = total;
+      document.getElementById('filter-unread-count').innerText = total;
+    }
+
+    // Theme Switcher (Dark Mode / Light Mode)
+    function toggleTheme() {
+      const html = document.documentElement;
+      const isDark = html.classList.contains('dark');
+      const themeIcon = document.getElementById('theme-icon');
+
+      if (isDark) {
+        html.classList.remove('dark');
+        themeIcon.setAttribute('data-lucide', 'moon');
+      } else {
+        html.classList.add('dark');
+        themeIcon.setAttribute('data-lucide', 'sun');
+      }
+      lucide.createIcons();
+    }
+
+    // Modals & Action Handlers
+    function showBriefingModal() {
+      document.getElementById('briefing-modal').classList.remove('hidden');
+    }
+
+    function closeBriefingModal() {
+      document.getElementById('briefing-modal').classList.add('hidden');
+    }
+
+    function toggleInChatSearch() {
+      document.getElementById('in-chat-search-bar').classList.toggle('hidden');
+    }
+
+    function insertEmoji(emoji) {
+      const input = document.getElementById('message-input');
+      input.value += emoji;
+      input.focus();
+    }
+
+    function triggerMetaAIHint() {
+      alert('🤖 Meta AI Forensic Assistant:\n\n"Cross-reference Jhanvi\'s darkroom alibi against Thanu\'s observation of someone in a dark Media Club press jacket entering the Tech Wing at 8:44 PM, and Chrithika\'s testimony of shouting inside Lab 302 at 8:46 PM."');
+    }
+  </script>
+
+
+</div></body>
+```
+
+Dimensions:
+- top: -254px
+- left: -346px
+- width: 1010px
+- height: 668px
+
+CSS:
+```css
+*, ::before, ::after { --tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }
+*, ::after, ::before { box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb }
+body { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      user-select: none; }
+body { margin:0;line-height:inherit }
+.flex { display:flex }
+.h-screen { height:100vh }
+.w-screen { width:100vw }
+.select-none { -webkit-user-select:none;user-select:none }
+.flex-col { flex-direction:column }
+.overflow-hidden { overflow:hidden }
+.bg-\[\#0c1317\] { --tw-bg-opacity:1;background-color:rgb(12 19 23 / var(--tw-bg-opacity, 1)) }
+.text-\[\#111b21\] { --tw-text-opacity:1;color:rgb(17 27 33 / var(--tw-text-opacity, 1)) }
+.antialiased { -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale }
+.dark\:text-\[\#e9edef\]:is(.dark *) { --tw-text-opacity:1;color:rgb(233 237 239 / var(--tw-text-opacity, 1)) }
+
+/* Pseudo-elements */
+::after, ::before { --tw-content:'' }
+::-webkit-scrollbar { width: 6px;
+      height: 6px; }
+::-webkit-scrollbar-thumb { background: rgba(134, 150, 160, 0.3);
+      border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(134, 150, 160, 0.5); }
+::-webkit-scrollbar-track { background: transparent; }
+
+/* Inherited */
+:host, html { line-height:1.5; tab-size:4; font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-feature-settings:normal }
+
+/* Resolved values */
+margin: 0px;
+border-radius: 0px;
+border: 0px solid rgb(229, 231, 235);
+-webkit-font-smoothing: antialiased;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgb(12, 19, 23);
+background-image: none;
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto;
+box-sizing: border-box;
+color: rgb(233, 237, 239);
+display: flex;
+flex-direction: column;
+font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-feature-settings: normal;
+height: 668px;
+line-height: 24px;
+overflow-x: hidden;
+overflow-y: hidden;
+tab-size: 4;
+user-select: none;
+width: 1010.4px;
+
+/* CSS variables */
+--tw-bg-opacity: 1;
+--tw-text-opacity: 1;
+```
